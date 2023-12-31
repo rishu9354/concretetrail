@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Concrete Infra & Media Ltd. Private Limited</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Swiper.js-->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <!-- Leaflet-->
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,800&amp;display=swap">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <div class="bg-primary text-white py-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 d-none d-lg-block">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item me-3"><a class="reset-anchor" href="#!"><i class="fas fa-mobile me-2"></i><span class="fw-normal text-sm">011-4102 8150</span></a></li>
+                <li class="list-inline-item"><a class="reset-anchor" href="#!"><i class="fas fa-envelope me-2"></i><span class="fw-normal text-sm">investors.concrete@gmail.com</span></a></li>
+              </ul>
+            </div>
+            <div class="col-lg-5 text-end">
+              <ul class="list-inline mb-0">
+                <!-- <li class="list-inline-item"><a class="fw-bold text-sm reset-anchor" href="#!">FAQ</a></li>
+                <li class="list-inline-item">|</li> -->
+                <li class="list-inline-item"><a class="fw-bold text-sm reset-anchor" href="#!">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light py-3 bg-white">
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="img/logo_white.png" alt="" width="150"></a>
+          <button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-2">
+                <!-- Link--><a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <!-- Link--><a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item mx-2">
+                <!-- Link--><a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Slider -->
+    <section class="bg-cover bg-position" style="background: url(img/hero-banner-7.avif)">
+      <div class="dark-overlay dark-overlay-lighter py-5">
+        <div class="overlay-content">
+          <div class="container text-center py-5">
+            <h1 class="text-white">Contact</h1>
+            <nav class="d-flex justify-content-center" aria-label="breadcrumb">
+              <ol class="breadcrumb bg-none mb-0">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="py-5 bg-light shadow-sm z-index-20">
+      <div class="container py-5">
+        <div class="card">
+          <div class="card-body p-4 p-lg-5">
+            <div class="row py-5">
+              <div class="col-lg-5">
+                <h2>Request a <span class="text-primary">Call </span>Back</h2>
+                <!-- p class="mb-5 text-muted">Nanotechnology immersion along the information highway will close the loop on focusing</p> -->
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <h5 class="text-muted">Address</h5>
+                    <p class="text-muted">10 Phears Lane, 2nd Floor, P.S. Bowbazar, Kolkatta, West Bengal-700012, </p>
+                    <p class="text-muted">505, Antriksh Bhawan, KG Marg, New Delhi-110001.</p>
+                  </li>
+                  <li>
+                    <h5 class="text-muted">Email</h5>
+                    <p class="text-muted">investors.concrete@gmail.com</p>
+                  </li>
+                  <li>
+                    <h5 class="text-muted">Phone</h5>
+                    <p class="text-muted">011-4102 8150</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-7">
+                <form method="post" autocomplete="off" name="contact-info" action="#">
+                  <div class="row gy-3">
+                    <div class="col-lg-6">
+                      <input class="form-control" type="text" name="firstname" placeholder="First name">
+                    </div>
+                    <div class="col-lg-6">
+                      <input class="form-control" type="text" name="lastname" placeholder="Last name">
+                    </div>
+                    <div class="col-lg-6">
+                      <input class="form-control" type="tel" name="phone" placeholder="Phone number">
+                    </div>
+                    <div class="col-lg-6">
+                      <input class="form-control" type="text" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="col-lg-12">
+                      <input class="form-control" type="email" name="email" placeholder="Email address">
+                    </div>
+                    <div class="col-lg-12">
+                      <textarea class="form-control" name="message" rows="5" placeholder="Leave your message"></textarea>
+                    </div>
+                    <div class="col-lg-12">
+                      <button class="btn btn-outline-primary" type="submit" name="submit">Submit now</button>
+                       <button class="btn btn-outline-primary" type="reset" name="reset">Reset</button>
+                    </div>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map Section -->
+    
+      <!-- <div style="max-width:100%;overflow:hidden;color:red;width:1000px;height:500px;"><div id="my-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Concrete+Infra+&+Media+Limited,+Crooked+Lane,+Esplanade,+Chowringhee+North,+Bow+Barracks,+Kolkata,+West+Bengal,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googl-ehtml" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a><style>#my-map-display img{max-height:none;max-width:none!important;background:none!important;}</style></div> -->
+    
+    <footer class="text-white bg-cover bg-center" style="background: url(img/hero-banner-1.jpg)">
+      <div class="dark-overlay">
+        <div class="overlay-content">
+          <div class="container py-5">
+            <div class="row py-5">
+              <div class="col-lg-4 col-md-6"><img class="mb-4" src="img/logo_white.png" alt="" width="120" style="filter: brightness(40%);">
+                <p class="text-light text-sm mb-4">To be a respectable building contractor delivery beyond expectation,
+                always.</p>
+                <p class="mb-1"><i class="fas me-3 text-primary fa-fw fa-envelope"></i><span class="text-sm">investors.concrete@gmail.com</span></p>
+                <p class="mb-1"><i class="fas me-3 text-primary fa-fw fa-mobile"></i><span class="text-sm">011-4102 8150</span></p>
+                <p class="mb-1"><i class="fas me-3 text-primary fa-fw fa-map-marker-alt"></i><span class="text-sm">Reg.Add: 10 Phears Lane, 2nd Floor, P.S. Bowbazar, Kolkatta, West Bengal-700012</span></p>
+                <p class="mb-1"><i class="fas me-3 text-primary fa-fw fa-map-marker-alt"></i><span class="text-sm">Corporate Office: 505, Antriksh Bhawan, KG Marg, New Delhi-110001</span></p>
+              </div>
+              <div class="col-lg-2 col-md-6">
+                <h6 class="text-uppercase text-primary mt-3 mb-4">Quick <span class="text-white">links</span></h6>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a class="footer-link" href="index.html">Home</a></li>
+                  <!-- <li class="mb-2"><a class="footer-link" href="#!">About</a></li> -->
+                  <li class="mb-2"><a class="footer-link" href="#!">Services</a></li>
+                  <li class="mb-2"><a class="footer-link" href="#!">Contacts</a></li>
+                 
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6">
+                <h6 class="text-uppercase text-primary mt-3 mb-4">Our <span class="text-white">services</span></h6>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a class="footer-link" href="#!">Road Works</a></li>
+                  <li class="mb-2"><a class="footer-link" href="#!">Highway Construction</a></li>
+                  <li class="mb-2"><a class="footer-link" href="#!">Earth Works</a></li>
+                  <li class="mb-2"><a class="footer-link" href="#!">Residential Projects</a></li>
+                  <li class="mb-2"><a class="footer-link" href="#!">Construction Consultant</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h6 class="text-uppercase text-primary mt-3 mb-4">Opening <span class="text-white">hours</span></h6>
+                <ul class="list-unstyled mb-0">
+                  <li class="d-flex align-items-center justify-content-between pb-2">
+                    <p class="text-sm mb-0">Monday </p><span class="text-sm mb-0">9:00 am - 06:00 pm</span>
+                  </li>
+                  <li class="d-flex align-items-center justify-content-between pb-2">
+                    <p class="text-sm mb-0">Tuesday </p><span class="text-sm mb-0">9:00 am - 06:00 pm</span>
+                  </li>
+                  <li class="d-flex align-items-center justify-content-between pb-2">
+                    <p class="text-sm mb-0">Wednesday </p><span class="text-sm mb-0">9:00 am - 06:00 pm</span>
+                  </li>
+                  <li class="d-flex align-items-center justify-content-between pb-2">
+                    <p class="text-sm mb-0">Thursday </p><span class="text-sm mb-0">9:00 am - 06:00 pm</span>
+                  </li>
+                  <li class="d-flex align-items-center justify-content-between pb-2">
+                    <p class="text-sm mb-0">Friday </p><span class="text-sm mb-0">9:00 am - 06:00 pm</span>
+                  </li>
+                  <li class="d-flex align-items-center justify-content-between pb-2">
+                    <p class="text-sm mb-0">Saturday </p><span class="text-sm mb-0 text-uppercase text-primary">Closed</span>
+                  </li>
+                  <li class="d-flex align-items-center justify-content-between pb-2">
+                    <p class="text-sm mb-0">Sunday </p><span class="text-sm mb-0 text-uppercase text-primary">Closed</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container text-center">
+            <div class="border-top py-4">
+              <!-- You are completely free to use this template for your personal use or as a work for your client as long as you keep the link at the template footer pointing to our partner and us.-->
+              <!-- If you would prefer removing the backlink from the theme footer, please purchase the attribution-free license at the theme page at https://bootstrapious.com/attribution-free-license.-->
+              <p class="mb-0 text-white text-sm">&copy; Concrete Infra & Media Ltd. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- contact data transfer -->
+    <script type="text/javascript">
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzvfSnYUVlMDkLnU9e6rL0tNrCRnpr1QCd1NcU9GUkrY43lBe9ibZ8Uz31t5u-Rp59r/exec'
+            const form = document.forms['contact-info']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+    </script>
+    <!-- JavaScript files-->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <script src="js/front.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script>
+      // ------------------------------------------------------- //
+      //   Inject SVG Sprite - 
+      //   see more here 
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      // function injectSvgSprite(path) {
+      
+      //     var ajax = new XMLHttpRequest();
+      //     ajax.open("GET", path, true);
+      //     ajax.send();
+      //     ajax.onload = function(e) {
+      //     var div = document.createElement("div");
+      //     div.className = 'd-none';
+      //     div.innerHTML = ajax.responseText;
+      //     document.body.insertBefore(div, document.body.childNodes[0]);
+      //     }
+      // }
+      // this is set to BootstrapTemple website as you cannot 
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      // injectSvgSprite(''); 
+      
+    </script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
